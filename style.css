@@ -12,4 +12,5 @@ p{
 } 
 header{
     border: solid 2px rgb(green, blue);
+    font: 30px;
 } 
