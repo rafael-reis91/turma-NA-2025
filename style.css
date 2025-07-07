@@ -20,4 +20,6 @@ section{
 background: rgb(105, 131, 165);
 padding-bottom: 80px;
 padding-top: 80px;
+display: flex;
+justify-content: center;
 } 
