@@ -3,3 +3,9 @@ body{
     color: white;
     font-family:"Nunito", sans-serif;
 }
+h1{
+    font-size: 40px;
+} 
+p{
+    font-size: 20px;
+} 
