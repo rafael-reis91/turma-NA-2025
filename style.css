@@ -2,10 +2,14 @@ body{
     background-color: black;
     color: white;
     font-family:"Nunito", sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 60px;
 } 
 p{
     font-size: 30px;
+} 
+header{
+    border: solid 2px rgb(gray, blue);
 } 
