@@ -11,6 +11,6 @@ p{
     font-size: 30px;
 } 
 header{
-    border: solid 2px rgb(green, blue);
+    border-bottom: solid 2px rgb(green);
     font-size: 30px;
 } 
