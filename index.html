@@ -33,16 +33,31 @@
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         </section>
-        <h2>Musicas<h2>
-<div class="categoria-videos">
-    <a href="https//www.youtube.com/watch?v=WWzm33sW7NI">
-        <img src="https://img.youtube.com/vi/WWzm33sW7NI/hqdefault.jpg"/>
-        <a href="https://www.youtube.com/watch?v=qkBKoh_Eid4">
-        <img src="https://img.youtube.com/vi/qkBKoh_Eid4/hqdefault.jpg"/>
-        <a href="https://www.youtube.com/watch?v=ITCaY-EI_Yc">
-        <img src="https://img.youtube.com/vi/ITCaY-EI_Yc/hqdefault.jpg"/>
-        </a> 
+       <h2>Musicas</h2>
+<div class="categoria-videos scroll-container">
+  <a href="https://www.youtube.com/watch?v=WWzm3s3W7NI">
+    <img src="https://img.youtube.com/vi/WWzm3s3W7NI/hqdefault.jpg" class="thumb">
+  </a>
+  <a href="https://www.youtube.com/watch?v=qkBKoH_Eid4">
+    <img src="https://img.youtube.com/vi/qkBKoH_Eid4/hqdefault.jpg" class="thumb">
+  </a>
+  <a href="https://www.youtube.com/watch?v=ITCaY-EI_Yc">
+    <img src="https://img.youtube.com/vi/ITCaY-EI_Yc/hqdefault.jpg" class="thumb">
+  </a>
             </div>
+            .scroll-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  gap: 10px;
+}
+
+.thumb {
+  width: 250px; /* Tamanho reduzido */
+  height: auto;
+  flex-shrink: 0; /* Impede que a imagem encolha no scroll */
+  border-radius: 10px;
+}
 </body>
 
 </html>
